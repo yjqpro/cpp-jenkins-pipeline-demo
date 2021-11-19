@@ -20,7 +20,7 @@ pipeline {
           cmakeBuild buildDir: '.build', buildType: 'Release', cleanBuild: true, 
                      cmakeArgs: '-DCMAKE_INSTALL_PREFIX=prefix',
                      installation: 'InSearchPath',
-                     steps: [[args: '--target install', withCmake: true]]
+                     steps: [[]]
           // cpack installation: 'InSearchPath', workingDir: '.build'
           // archiveArtifacts '.build/xyz-web-master.tar.gz'
       }
