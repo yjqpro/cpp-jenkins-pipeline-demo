@@ -1,0 +1,6 @@
+{
+  "generator-vcpkg-cmake": {
+    "projectName": "test",
+    "projectPath": "test"
+  }
+}
